@@ -1,586 +1,0 @@
-TFanFare_Question
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plist
-cProcessPCH /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch.pch FanFare_Question/FanFare_Question-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question normal arm64
-cCopyStringsFile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/en.lproj/InfoPlist.strings FanFare_Question/en.lproj/InfoPlist.strings
-cCompileStoryboard /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Base.lproj/Main.storyboard
-cCompileAssetCatalog /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Images.xcassets
-cProcessInfoPlistFile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Info.plist /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Info.plist
-cGenerateDSYMFile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app.dSYM /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question
-cProcessProductPackaging /Volumes/Personal/Ekta/Library/MobileDevice/Provisioning\ Profiles/90fb71d3-bf39-41d1-864b-f864db9c0ec5.mobileprovision /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/embedded.mobileprovision
-cTouch /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcent
-cCodeSign /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
-c00000000534BE9AA0000000000000132
-t1397483946
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-c00000000531FEDB80000000000000094
-t1394601400
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-c00000000531FEDB80000000000000096
-t1394601400
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
-c00000000531FEDB8000000000000036B
-t1394601400
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531FEDB9000000000000019E
-t1394601401
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000534BE96F00000000004D7BC0
-t1397483887
-s5077952
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000531FEDBC0000000000A90C10
-t1394601404
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000531FEDC50000000002759920
-t1394601413
-s41261344
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000531FEE310000000000000ADC
-t1394601521
-s2780
-
-N/Volumes/Personal/Ekta/Library/MobileDevice/Provisioning Profiles/90fb71d3-bf39-41d1-864b-f864db9c0ec5.mobileprovision
-c000000005409412300000000000024E0
-t1409892643
-s9440
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcent
-t1411096893
-s608
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.o
-t1411096892
-s66424
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.o
-t1411096892
-s12304
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.o
-t1411096892
-s46116
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/FanFare_Question.LinkFileList
-c00000000541BA13A00000000000005EC
-t1411096890
-s1516
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.o
-t1411096892
-s60292
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.o
-t1411096892
-s52548
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.o
-t1411096892
-s50952
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.o
-t1411096892
-s13796
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.o
-t1411096892
-s4208
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/assetcatalog_dependencies.txt
-t1411096893
-s482
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/assetcatalog_generated_info.plist
-t1411096893
-s525
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch.pch
-t1411096892
-s111176
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app
-t1411096893
-s374
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app.dSYM
-t2
-s0
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Base.lproj/Main.storyboardc
-t1411096893
-s170
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question
-t1411096892
-s69332
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Info.plist
-t1411096893
-s1352
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/PkgInfo
-t1411096893
-s8
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plist
-t1411096890
-s150
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/embedded.mobileprovision
-t1411096893
-s9440
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/en.lproj/InfoPlist.strings
-t1411096892
-s42
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.m
-c00000000541A034F00000000000007DA
-t1410990927
-s2010
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Base.lproj/Main.storyboard
-c00000000541B40290000000000004ACF
-t1411072041
-s19151
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.m
-c00000000541B3D480000000000000473
-t1411071304
-s1139
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.m
-c00000000541A034F00000000000003E1
-t1410990927
-s993
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Info.plist
-c00000000541A035F0000000000000521
-t1410990943
-s1313
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Prefix.pch
-c00000000541A034F0000000000000158
-t1410990927
-s344
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Images.xcassets
-c00000000541A034F0000000000000088
-t1410990927
-s136
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.m
-c00000000541BA08E0000000000000750
-t1411096718
-s1872
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.m
-c00000000541B4026000000000000093C
-t1411072038
-s2364
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m
-c00000000541B2D4100000000000006F3
-t1411067201
-s1779
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.m
-c00000000541A1A4400000000000000BA
-t1410996804
-s186
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/en.lproj/InfoPlist.strings
-c00000000541A034F000000000000002D
-t1410990927
-s45
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/main.m
-c00000000541A034F0000000000000154
-t1410990927
-s340
-
-N/Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/SDWebImage
-c0000000052A955DE00000000001AD5AC
-t1386829278
-s1758636
-
-CBuild AST from /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.m
-r0
-
-CBuild AST from /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.m
-r0
-
-CBuild AST from /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.m
-r0
-
-CBuild AST from /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.m
-r0
-
-CBuild AST from /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.m
-r0
-
-CBuild AST from /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m
-r0
-
-CBuild AST from /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.m
-r0
-
-CBuild AST from /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd90ab2bad8cbb941^616ec3bad8cbb941^---0#1#1#--18"Check dependencies36"B46773CA-F37A-4102-B869-56071DCE9B4C-
-
-CCodeSign /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app
-s432789693.850280
-e432789694.055141
-r1
-xCodeSign
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CodeSign DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app88"CodeSign DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app5ebed9bdd8cbb941^4f1e0ebed8cbb941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/0000000000000000^1195"CodeSign DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app    cd /Volumes/Work/iPhoneDev/FanFare_Question    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Ekta Agrawal (2TT6M2CUS6)" and provisioning profile "iOS Team Provisioning Profile: com.ektaapps.*" (90fb71d3-bf39-41d1-864b-f864db9c0ec5)    /usr/bin/codesign --force --sign 460C8E268483579910F0CEABCFB863FC5E092334 --resource-rules=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plist --entitlements /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcent /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app36"CE009052-9B2A-48CE-9240-6E0B38FC0E47-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileAssetCatalog /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Images.xcassets
-s432789692.586249
-e432789693.794096
-r1
-xCompileAssetCatalog
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Images.xcassets
-o/* com.apple.actool.compilation-results */
-o/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/LaunchImage-700-568h@2x.png
-o/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Assets.car
-o/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"CompileAssetCatalog DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app FanFare_Question/Images.xcassets132"CompileAssetCatalog DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app FanFare_Question/Images.xcassets4e2a96bcd8cbb941^884acbbdd8cbb941^-510"/* com.apple.actool.compilation-results *//Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/LaunchImage-700-568h@2x.png/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Assets.car/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@81"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Images.xcassets/0000000000000000^1249"CompileAssetCatalog DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app FanFare_Question/Images.xcassets    cd /Volumes/Work/iPhoneDev/FanFare_Question    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/assetcatalog_dependencies.txt --output-partial-info-plist /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Images.xcassets36"B4C70D69-646A-4834-9425-A8BA77B82E05-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432789692.158593
-e432789692.278485
-r1
-xCompileC
-xDerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.o
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.m
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.m253"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.o FanFare_Question/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler17bc28bcd8cbb941^664e47bcd8cbb941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.m0000000000000000^4182"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.o FanFare_Question/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Work/iPhoneDev/FanFare_Question    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-generated-files.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-own-target-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-all-target-headers.hmap -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-project-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources/arm64 -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question -include /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch -MMD -MT dependencies -MF /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.dia -c /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.m -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.o36"8FEC2838-BA3B-4478-9D80-A974EA97F530-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432789692.319526
-e432789692.387626
-r1
-xCompileC
-xDerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.o
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.m
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.m249"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.o FanFare_Question/DataModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6bf151bcd8cbb941^cc4263bcd8cbb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.m0000000000000000^4170"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.o FanFare_Question/DataModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Work/iPhoneDev/FanFare_Question    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-generated-files.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-own-target-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-all-target-headers.hmap -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-project-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources/arm64 -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question -include /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch -MMD -MT dependencies -MF /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.d --serialize-diagnostics /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.dia -c /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.m -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.o36"1F9ED123-11AA-466D-A3ED-57C2DEC66CB2-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432789692.284667
-e432789692.394760
-r1
-xCompileC
-xDerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.o
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.m
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.m271"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.o FanFare_Question/DetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler920449bcd8cbb941^840f65bcd8cbb941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.m0000000000000000^4236"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.o FanFare_Question/DetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Work/iPhoneDev/FanFare_Question    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-generated-files.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-own-target-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-all-target-headers.hmap -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-project-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources/arm64 -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question -include /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch -MMD -MT dependencies -MF /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.d --serialize-diagnostics /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.dia -c /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DetailViewController.m -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.o36"03770CEE-291B-46E9-A4C4-68ACAC292BAB-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432789692.159064
-e432789692.319193
-r1
-xCompileC
-xDerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.o
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.m
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/Headers/UIImageView+WebCache.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/Headers/SDWebImageCompat.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/Headers/SDWebImageManager.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/Headers/SDWebImageOperation.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/Headers/SDWebImageDownloader.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/Headers/SDImageCache.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.m281"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.o FanFare_Question/MatchingGameTableViewCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler44dc28bcd8cbb941^0f0a52bcd8cbb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.m0000000000000000^4266"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.o FanFare_Question/MatchingGameTableViewCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Work/iPhoneDev/FanFare_Question    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-generated-files.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-own-target-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-all-target-headers.hmap -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-project-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources/arm64 -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question -include /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch -MMD -MT dependencies -MF /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.d --serialize-diagnostics /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.dia -c /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.m -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.o36"FAD2D0E1-72DF-4B35-9E3D-2F99A1DB725C-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432789692.278863
-e432789692.397773
-r1
-xCompileC
-xDerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.o
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.m
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/DataModel.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameTableViewCell.h
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.m283"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.o FanFare_Question/MatchingGameViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf48647bcd8cbb941^f9d865bcd8cbb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.m0000000000000000^4272"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.o FanFare_Question/MatchingGameViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Work/iPhoneDev/FanFare_Question    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-generated-files.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-own-target-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-all-target-headers.hmap -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-project-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources/arm64 -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question -include /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch -MMD -MT dependencies -MF /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.d --serialize-diagnostics /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.dia -c /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/MatchingGameViewController.m -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.o36"AC4F3F3A-EDC7-40BA-9F7B-6D6CB358B72B-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432789692.158760
-e432789692.304247
-r1
-xCompileC
-xDerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.o
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.h
-o/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m:40:65: warning: values of type 'NSInteger' should not be used as format arguments; add an explicit cast to 'long' instead [-Wformat]
-o        NSLog(@"Http status code is %d and the response is %@", response.statusCode, jsonResponse);
-o                                    ~~                          ^~~~~~~~~~~~~~~~~~~
-o                                    %ld                         (long)
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m259"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.o FanFare_Question/NetworkUtility.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4fca28bcd8cbb941^1e504ebcd8cbb941^-484"/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m:40:65: warning: values of type 'NSInteger' should not be used as format arguments; add an explicit cast to 'long' instead [-Wformat]        NSLog(@"Http status code is %d and the response is %@", response.statusCode, jsonResponse);                                    ~~                          ^~~~~~~~~~~~~~~~~~~                                    %ld                         (long)1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@105"Values of type 'NSInteger' should not be used as format arguments; add an explicit cast to 'long' instead-432789692#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m0000000000000000^39#64#39#64#1419#0#19"Format String Issue4(3@81"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m0000000000000000^39#64#39#83#1419#9#3@81"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m0000000000000000^39#36#39#38#1391#2#3@81"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m0000000000000000^39#36#39#38#1391#2#3@81"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m0000000000000000^39#64#39#64#1419#0#-0#0#1#-19%DVTDocumentLocation4@81"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m0000000000000000^4200"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.o FanFare_Question/NetworkUtility.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Work/iPhoneDev/FanFare_Question    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-generated-files.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-own-target-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-all-target-headers.hmap -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-project-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources/arm64 -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question -include /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch -MMD -MT dependencies -MF /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.d --serialize-diagnostics /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.dia -c /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/NetworkUtility.m -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.o36"8BB6DE07-3F78-408A-8E2D-34EC2752358A-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432789692.304541
-e432789692.367975
-r1
-xCompileC
-xDerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.o
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.m
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.m245"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.o FanFare_Question/Profile.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler721a4ebcd8cbb941^44345ebcd8cbb941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.m0000000000000000^4158"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.o FanFare_Question/Profile.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Work/iPhoneDev/FanFare_Question    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-generated-files.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-own-target-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-all-target-headers.hmap -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-project-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources/arm64 -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question -include /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch -MMD -MT dependencies -MF /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.d --serialize-diagnostics /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.dia -c /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Profile.m -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.o36"A47CE151-3876-4BC2-AD85-B1B8028A151D-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.o /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432789692.160455
-e432789692.284285
-r1
-xCompileC
-xDerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.o
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/main.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/main.m
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/main.m239"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.o FanFare_Question/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbd3429bcd8cbb941^41d548bcd8cbb941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/main.m0000000000000000^4140"CompileC DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.o FanFare_Question/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Work/iPhoneDev/FanFare_Question    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-generated-files.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-own-target-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-all-target-headers.hmap -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-project-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources/arm64 -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question -include /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch -MMD -MT dependencies -MF /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.d --serialize-diagnostics /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.dia -c /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/main.m -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.o36"8B2C8214-391E-4836-B205-8D3181E7614F-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCompileStoryboard /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Base.lproj/Main.storyboard
-s432789692.585783
-e432789693.455281
-r1
-xCompileStoryboard
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Base.lproj/Main.storyboard
-o/* com.apple.ibtool.document.warnings */
-o/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Base.lproj/Main.storyboard:Ah7-4n-0Wa: warning: Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:. [9]
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"CompileStoryboard FanFare_Question/Base.lproj/Main.storyboard61"CompileStoryboard FanFare_Question/Base.lproj/Main.storyboard910f96bcd8cbb941^268e74bdd8cbb941^-294"/* com.apple.ibtool.document.warnings *//Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Base.lproj/Main.storyboard:Ah7-4n-0Wa: warning: Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:.1(21%IDEActivityLogMessage2@146"Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:.-432789693#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@91"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Base.lproj/Main.storyboard0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#1#-19%DVTDocumentLocation4@91"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Base.lproj/Main.storyboard0000000000000000^842"CompileStoryboard FanFare_Question/Base.lproj/Main.storyboard    cd /Volumes/Work/iPhoneDev/FanFare_Question    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Base.lproj/Main.storyboardc /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/Base.lproj/Main.storyboard36"0046154F-CE4E-4C52-968B-30D0FC6447DB-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCopyStringsFile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/en.lproj/InfoPlist.strings FanFare_Question/en.lproj/InfoPlist.strings
-s432789692.585669
-e432789692.587038
-r1
-xCopyStringsFile
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/en.lproj/InfoPlist.strings
-xFanFare_Question/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy FanFare_Question/en.lproj/InfoPlist.strings166"CopyStringsFile DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/en.lproj/InfoPlist.strings FanFare_Question/en.lproj/InfoPlist.strings50ff95bcd8cbb941^375296bcd8cbb941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/en.lproj/InfoPlist.strings0000000000000000^670"CopyStringsFile DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/en.lproj/InfoPlist.strings FanFare_Question/en.lproj/InfoPlist.strings    cd /Volumes/Work/iPhoneDev/FanFare_Question    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/en.lproj -- FanFare_Question/en.lproj/InfoPlist.strings36"F00B98D1-8AFE-414C-B527-239710B0C19F-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plist
-s432789690.764154
-e432789690.765494
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-xDerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plist232"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plista2b4c3bad8cbb941^6858c4bad8cbb941^---0#0#1#-19%DVTDocumentLocation2@147"file:///Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plist003474f6ddffdf42^824"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plist    cd /Volumes/Work/iPhoneDev/FanFare_Question    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app36"F6280A43-B8AD-4EF1-89FE-D21029B98566-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CGenerateDSYMFile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app.dSYM /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question
-s432789693.797051
-e432789693.824027
-r1
-xGenerateDSYMFile
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app.dSYM
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Generate /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app.dSYM198"GenerateDSYMFile DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app.dSYM DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Questionb917ccbdd8cbb941^8cf4d2bdd8cbb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app.dSYM003474f6ddffdf42^802"GenerateDSYMFile DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app.dSYM DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question    cd /Volumes/Work/iPhoneDev/FanFare_Question    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app.dSYM36"8A4188C4-3028-4B13-BE92-2A9C9EBFDDD2-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CLd /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question normal arm64
-s432789692.398844
-e432789692.584764
-r1
-xLd
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question
-xnormal
-xarm64
-d/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/FanFare_Question.LinkFileList
-d/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/AppDelegate.o
-d/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/NetworkUtility.o
-d/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameTableViewCell.o
-d/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/main.o
-d/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/MatchingGameViewController.o
-d/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DetailViewController.o
-d/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/Profile.o
-d/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/DataModel.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-old: warning: ignoring file /Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/SDWebImage, missing required architecture arm64 in file /Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/SDWebImage (3 slices)
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Link /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question112"Ld DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question normal arm64ed2c66bcd8cbb941^07b395bcd8cbb941^-229"ld: warning: ignoring file /Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/SDWebImage, missing required architecture arm64 in file /Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/SDWebImage (3 slices)1(21%IDEActivityLogMessage2@215"Ignoring file /Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/SDWebImage, missing required architecture arm64 in file /Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage.framework/SDWebImage (3 slices)-432789692#0#229#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--1611"Ld DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question normal arm64    cd /Volumes/Work/iPhoneDev/FanFare_Question    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question -filelist /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/FanFare_Question.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework SDWebImage -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/Objects-normal/arm64/FanFare_Question_dependency_info.dat -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/FanFare_Question36"17FCF453-E908-4759-8E04-21D6A33FD718-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CProcessInfoPlistFile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Info.plist /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Info.plist
-s432789693.794751
-e432789693.796635
-r1
-xProcessInfoPlistFile
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Info.plist
-x/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Process /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Info.plist156"ProcessInfoPlistFile DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Info.plist FanFare_Question/FanFare_Question-Info.plistcb84cbbdd8cbb941^6ff2cbbdd8cbb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Info.plist0000000000000000^1207"ProcessInfoPlistFile DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Info.plist FanFare_Question/FanFare_Question-Info.plist    cd /Volumes/Work/iPhoneDev/FanFare_Question    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Info.plist -genpkginfo /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/ResourceRules.plist -additionalcontentfile /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/assetcatalog_generated_info.plist -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/Info.plist36"96991C34-688D-4773-888B-FA316932E8EC-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CProcessPCH /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch.pch FanFare_Question/FanFare_Question-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432789690.766347
-e432789692.157748
-r1
-xProcessPCH
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch.pch
-xFanFare_Question/FanFare_Question-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile FanFare_Question/FanFare_Question-Prefix.pch277"ProcessPCH DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch.pch FanFare_Question/FanFare_Question-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2c47c4bad8cbb941^1b6628bcd8cbb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Prefix.pch0000000000000000^4048"ProcessPCH DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch.pch FanFare_Question/FanFare_Question-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Work/iPhoneDev/FanFare_Question    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-generated-files.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-own-target-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-all-target-headers.hmap -iquote /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question-project-headers.hmap -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources/arm64 -I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/DerivedSources -F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos -F/Volumes/Work/iPhoneDev/FanFare_Question --serialize-diagnostics /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch.dia -MMD -MT dependencies -MF /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch.d -c /Volumes/Work/iPhoneDev/FanFare_Question/FanFare_Question/FanFare_Question-Prefix.pch -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/PrecompiledHeaders/FanFare_Question-Prefix-fczcdzqaanzxedhizmuwnaoulrcw/FanFare_Question-Prefix.pch.pch36"C0F886DF-84D7-4BF6-9914-97BE74CC80E6-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CProcessPCH /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Index/PrecompiledHeaders/FanFare_Question-Prefix-csckqlgasbaezqbxrsbvuzigswrs_ast/FanFare_Question-Prefix.pch.pch FanFare_Question/FanFare_Question-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcent
-s432789693.848587
-e432789693.849876
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection277"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcent277"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcentc34ad9bdd8cbb941^4392d9bdd8cbb941^---0#0#1#-19%DVTDocumentLocation2@180"file:///Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcent003474f6ddffdf42^874"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcent    cd /Volumes/Work/iPhoneDev/FanFare_Question    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/FanFare_Question.build/Debug-iphoneos/FanFare_Question.build/FanFare_Question.xcent36"52E45B11-F21D-4663-B891-0CF561056C8B-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CProcessProductPackaging /Volumes/Personal/Ekta/Library/MobileDevice/Provisioning\ Profiles/90fb71d3-bf39-41d1-864b-f864db9c0ec5.mobileprovision /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/embedded.mobileprovision
-s432789693.824656
-e432789693.847618
-r1
-xProcessProductPackaging
-x/Volumes/Personal/Ekta/Library/MobileDevice/Provisioning Profiles/90fb71d3-bf39-41d1-864b-f864db9c0ec5.mobileprovision
-x/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection248"ProcessProductPackaging /Volumes/Personal/Ekta/Library/MobileDevice/Provisioning\ Profiles/90fb71d3-bf39-41d1-864b-f864db9c0ec5.mobileprovision DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/embedded.mobileprovision248"ProcessProductPackaging /Volumes/Personal/Ekta/Library/MobileDevice/Provisioning\ Profiles/90fb71d3-bf39-41d1-864b-f864db9c0ec5.mobileprovision DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/embedded.mobileprovision242bd3bdd8cbb941^2502d9bdd8cbb941^---0#0#1#-19%DVTDocumentLocation2@152"file:///Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/embedded.mobileprovision003474f6ddffdf42^790"ProcessProductPackaging /Volumes/Personal/Ekta/Library/MobileDevice/Provisioning\ Profiles/90fb71d3-bf39-41d1-864b-f864db9c0ec5.mobileprovision DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/embedded.mobileprovision    cd /Volumes/Work/iPhoneDev/FanFare_Question    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Volumes/Personal/Ekta/Library/MobileDevice/Provisioning\ Profiles/90fb71d3-bf39-41d1-864b-f864db9c0ec5.mobileprovision -o /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app/embedded.mobileprovision36"A79486E1-4121-473A-9024-B0CB91FFCF5A-
-b7BD08AE2-0C32-4723-9535-1EE8F063B11B
-
-CTouch /Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphoneos/FanFare_Question.app
-r0
-
