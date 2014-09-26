@@ -1,0 +1,33 @@
+Contents of /Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage-master/Examples/SDWebImage Demo/SDWebImage Demo-Prefix.pch
+-x
+objective-c
+-arch
+i386
+-fretain-comments-from-system-headers
+-fobjc-arc
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+-fexceptions
+-fasm-blocks
+-g
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-mios-simulator-version-min=5.0
+-iquote
+-iquote
+-I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphonesimulator/include
+-I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Intermediates/UninstalledProducts/include
+-I/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphonesimulator/usr/local/lib/include
+-F/Volumes/Work/iPhoneDev/FanFare_Question/DerivedData/FanFare_Question/Build/Products/Debug-iphonesimulator
+-F/Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage-master/Examples
+-ferror-limit=10
+-working-directory=/Volumes/Work/iPhoneDev/FanFare_Question/SDWebImage-master/Examples
+-Xclang
+-detailed-preprocessing-record
+i386-apple-darwin13.3.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.40)"
+SDK_PRODUCT_BUILD_VERSION=11D167
+11D167

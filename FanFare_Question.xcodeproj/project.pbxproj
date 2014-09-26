@@ -14,7 +14,6 @@
 		09A8B2C719CA3ACF00D41754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8B2C619CA3ACF00D41754 /* main.m */; };
 		09A8B2CB19CA3ACF00D41754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8B2CA19CA3ACF00D41754 /* AppDelegate.m */; };
 		09A8B2CE19CA3ACF00D41754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A8B2CC19CA3ACF00D41754 /* Main.storyboard */; };
-		09A8B2D119CA3ACF00D41754 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8B2D019CA3ACF00D41754 /* MasterViewController.m */; };
 		09A8B2D419CA3ACF00D41754 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8B2D319CA3ACF00D41754 /* DetailViewController.m */; };
 		09A8B2D619CA3ACF00D41754 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A8B2D519CA3ACF00D41754 /* Images.xcassets */; };
 		09A8B2DD19CA3ACF00D41754 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A8B2DC19CA3ACF00D41754 /* XCTest.framework */; };
@@ -22,6 +21,15 @@
 		09A8B2DF19CA3ACF00D41754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A8B2BE19CA3ACF00D41754 /* UIKit.framework */; };
 		09A8B2E719CA3ACF00D41754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09A8B2E519CA3ACF00D41754 /* InfoPlist.strings */; };
 		09A8B2E919CA3ACF00D41754 /* FanFare_QuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8B2E819CA3ACF00D41754 /* FanFare_QuestionTests.m */; };
+		09A8B2F519CA3B9000D41754 /* MatchingGameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8B2F419CA3B9000D41754 /* MatchingGameTableViewCell.m */; };
+		09C4083219CA43FA00F8BA02 /* MatchingGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C4083119CA43FA00F8BA02 /* MatchingGameViewController.m */; };
+		09C4083919CA501400F8BA02 /* ProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C4083819CA501400F8BA02 /* ProfileModel.m */; };
+		09C4083C19CA51C500F8BA02 /* Leader.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C4083B19CA51C500F8BA02 /* Leader.m */; };
+		09C4084219CB625D00F8BA02 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C4084119CB625D00F8BA02 /* NetworkManager.m */; };
+		09C408D519CBE24100F8BA02 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C408D419CBE24100F8BA02 /* UIImage+Helper.m */; };
+		09C408D819CBE6EB00F8BA02 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C408D719CBE6EB00F8BA02 /* Profile.m */; };
+		09C408DE19CBEED000F8BA02 /* ProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C408DD19CBEED000F8BA02 /* ProfileView.m */; };
+		09C408E019CBF35E00F8BA02 /* defaultProfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09C408DF19CBF35E00F8BA02 /* defaultProfile.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +54,6 @@
 		09A8B2C919CA3ACF00D41754 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09A8B2CA19CA3ACF00D41754 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		09A8B2CD19CA3ACF00D41754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09A8B2CF19CA3ACF00D41754 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		09A8B2D019CA3ACF00D41754 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		09A8B2D219CA3ACF00D41754 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		09A8B2D319CA3ACF00D41754 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		09A8B2D519CA3ACF00D41754 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +62,23 @@
 		09A8B2E419CA3ACF00D41754 /* FanFare_QuestionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FanFare_QuestionTests-Info.plist"; sourceTree = "<group>"; };
 		09A8B2E619CA3ACF00D41754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09A8B2E819CA3ACF00D41754 /* FanFare_QuestionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanFare_QuestionTests.m; sourceTree = "<group>"; };
+		09A8B2F319CA3B9000D41754 /* MatchingGameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingGameTableViewCell.h; sourceTree = "<group>"; };
+		09A8B2F419CA3B9000D41754 /* MatchingGameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchingGameTableViewCell.m; sourceTree = "<group>"; };
+		09C4083019CA43FA00F8BA02 /* MatchingGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingGameViewController.h; sourceTree = "<group>"; };
+		09C4083119CA43FA00F8BA02 /* MatchingGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchingGameViewController.m; sourceTree = "<group>"; };
+		09C4083719CA501400F8BA02 /* ProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileModel.h; sourceTree = "<group>"; };
+		09C4083819CA501400F8BA02 /* ProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileModel.m; sourceTree = "<group>"; };
+		09C4083A19CA51C500F8BA02 /* Leader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leader.h; sourceTree = "<group>"; };
+		09C4083B19CA51C500F8BA02 /* Leader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leader.m; sourceTree = "<group>"; };
+		09C4084019CB625D00F8BA02 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		09C4084119CB625D00F8BA02 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		09C408D319CBE24100F8BA02 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		09C408D419CBE24100F8BA02 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		09C408D619CBE6EB00F8BA02 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		09C408D719CBE6EB00F8BA02 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		09C408DC19CBEED000F8BA02 /* ProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileView.h; sourceTree = "<group>"; };
+		09C408DD19CBEED000F8BA02 /* ProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileView.m; sourceTree = "<group>"; };
+		09C408DF19CBF35E00F8BA02 /* defaultProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultProfile.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +138,14 @@
 		09A8B2C019CA3ACF00D41754 /* FanFare_Question */ = {
 			isa = PBXGroup;
 			children = (
+				09C408DF19CBF35E00F8BA02 /* defaultProfile.jpg */,
+				09C4083F19CB624A00F8BA02 /* Utility */,
+				09C4083619CA500000F8BA02 /* Model */,
+				09C4082F19CA43E100F8BA02 /* Controllers */,
+				09A8B2F219CA3B6000D41754 /* Views */,
 				09A8B2C919CA3ACF00D41754 /* AppDelegate.h */,
 				09A8B2CA19CA3ACF00D41754 /* AppDelegate.m */,
 				09A8B2CC19CA3ACF00D41754 /* Main.storyboard */,
-				09A8B2CF19CA3ACF00D41754 /* MasterViewController.h */,
-				09A8B2D019CA3ACF00D41754 /* MasterViewController.m */,
 				09A8B2D219CA3ACF00D41754 /* DetailViewController.h */,
 				09A8B2D319CA3ACF00D41754 /* DetailViewController.m */,
 				09A8B2D519CA3ACF00D41754 /* Images.xcassets */,
@@ -155,6 +181,50 @@
 				09A8B2E519CA3ACF00D41754 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09A8B2F219CA3B6000D41754 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09A8B2F319CA3B9000D41754 /* MatchingGameTableViewCell.h */,
+				09A8B2F419CA3B9000D41754 /* MatchingGameTableViewCell.m */,
+				09C408DC19CBEED000F8BA02 /* ProfileView.h */,
+				09C408DD19CBEED000F8BA02 /* ProfileView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		09C4082F19CA43E100F8BA02 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09C4083019CA43FA00F8BA02 /* MatchingGameViewController.h */,
+				09C4083119CA43FA00F8BA02 /* MatchingGameViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		09C4083619CA500000F8BA02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09C4083719CA501400F8BA02 /* ProfileModel.h */,
+				09C4083819CA501400F8BA02 /* ProfileModel.m */,
+				09C4083A19CA51C500F8BA02 /* Leader.h */,
+				09C4083B19CA51C500F8BA02 /* Leader.m */,
+				09C408D619CBE6EB00F8BA02 /* Profile.h */,
+				09C408D719CBE6EB00F8BA02 /* Profile.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		09C4083F19CB624A00F8BA02 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				09C4084019CB625D00F8BA02 /* NetworkManager.h */,
+				09C4084119CB625D00F8BA02 /* NetworkManager.m */,
+				09C408D319CBE24100F8BA02 /* UIImage+Helper.h */,
+				09C408D419CBE24100F8BA02 /* UIImage+Helper.m */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +306,7 @@
 				09A8B2D619CA3ACF00D41754 /* Images.xcassets in Resources */,
 				09A8B2C519CA3ACF00D41754 /* InfoPlist.strings in Resources */,
 				09A8B2CE19CA3ACF00D41754 /* Main.storyboard in Resources */,
+				09C408E019CBF35E00F8BA02 /* defaultProfile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,10 +325,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C408DE19CBEED000F8BA02 /* ProfileView.m in Sources */,
 				09A8B2CB19CA3ACF00D41754 /* AppDelegate.m in Sources */,
-				09A8B2D119CA3ACF00D41754 /* MasterViewController.m in Sources */,
+				09C408D819CBE6EB00F8BA02 /* Profile.m in Sources */,
+				09C4084219CB625D00F8BA02 /* NetworkManager.m in Sources */,
+				09A8B2F519CA3B9000D41754 /* MatchingGameTableViewCell.m in Sources */,
+				09C408D519CBE24100F8BA02 /* UIImage+Helper.m in Sources */,
 				09A8B2C719CA3ACF00D41754 /* main.m in Sources */,
+				09C4083219CA43FA00F8BA02 /* MatchingGameViewController.m in Sources */,
 				09A8B2D419CA3ACF00D41754 /* DetailViewController.m in Sources */,
+				09C4083C19CA51C500F8BA02 /* Leader.m in Sources */,
+				09C4083919CA501400F8BA02 /* ProfileModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,9 +460,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FanFare_Question/FanFare_Question-Prefix.pch";
 				INFOPLIST_FILE = "FanFare_Question/FanFare_Question-Info.plist";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,9 +478,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FanFare_Question/FanFare_Question-Prefix.pch";
 				INFOPLIST_FILE = "FanFare_Question/FanFare_Question-Info.plist";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +550,7 @@
 				09A8B2EE19CA3ACF00D41754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09A8B2EF19CA3ACF00D41754 /* Build configuration list for PBXNativeTarget "FanFare_QuestionTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +559,7 @@
 				09A8B2F119CA3ACF00D41754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
